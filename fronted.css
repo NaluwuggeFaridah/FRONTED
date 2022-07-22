@@ -1,0 +1,314 @@
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+.main-container{
+
+    /*border:5px solid green;*/
+     
+     display: flex;
+     flex-direction: column;
+
+
+}
+
+.learn,.Topic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-bottom: 3px solid gray;
+    margin-bottom: 25px;
+    
+}
+.sp1{
+    font-family: Arial Nova cond Light;
+    color: white;
+    font-size: 55px;
+}
+.sp2{
+    font-family: Brush Script Mt;
+    color: rgb(203,5,5);
+    font-size: 55px;
+}
+
+.inline-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #4E2422;
+    height: 160px;
+    align-items: center;
+}
+
+/* Lists */
+.list p{
+    flex-basis: 60%;
+}
+.list1{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-basis: 40%;
+    justify-content: space-around;
+    
+    
+    align-items: center;
+
+}
+
+.list1 li{
+    font-size: 28px;
+    
+}
+
+.list-icons{
+
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.icon{
+    color: gray;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.list-icons img{
+    
+    height: 30px;
+    width: 30px;
+}
+
+.list2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    flex-basis: 50%;
+    
+}
+#ln{
+    color: white;
+
+}
+
+.list3{
+    list-style: none;
+    margin-left: 120px;
+}
+.list2 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.list1 a:hover{
+    color: whitesmoke;
+}
+
+
+.list1 a{
+    color: wheat;
+    text-decoration: none;
+}
+
+/* ------------*/
+
+.inline-div2{
+    background-color: orangered;
+    height: 15px;
+    
+}
+
+
+.bottom-div{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 304px;
+}
+.btm1{
+    margin-left: 120px;
+    display:flex;
+    flex-direction: row;
+}
+.list2 p{
+    flex-basis: 50%;
+    
+}
+
+.store{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.store img {
+    width: 110px;
+    height: 35px;
+    margin-left: 120px;
+    
+}
+
+.img2{
+    margin-left: -75px;
+}
+
+.content-div{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.section1{
+    /*border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 1370px;
+
+}
+
+.box-div{
+    width: 400px;
+    height: 790px;
+    background-color:#383838;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont1, .cont2{
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ /*border: 3px solid greenyellow;*/
+ align-items: center;
+ justify-content: center;
+ 
+
+}
+
+.cont{
+    /*margin-left: 110px;*/
+    height: 100%;
+    width: 100%;
+    
+
+
+}
+
+
+#exd{
+    margin-left: 150px;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.list3 img{
+    margin-left: 120px;
+    height: 175px;
+    width: 175px;
+}
+
+
+
+.sp3{
+    color: orangered;
+}
+
+.div-terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+}
+
+.circle-div{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border:26px solid gray;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.box-list{
+    list-style: none;
+    color: gray;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.box-list li{
+    font-size: 25px;
+    color: white;
+}
+
+/*Buttons*/
+.join-btn{
+    background-color: orangered;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 107px;
+
+    font-size: 20px;
+    font-weight: 10;
+
+
+}
+
+.box-btn{
+    background-color: orangered;
+    height: 49px;
+    width: 257px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 21px;
+
+}
+
+#per{
+    font-size: 120px;
+}
+
+/* box-div buttom colors */
+.bgrn{
+    background-color: #00BB84;
+}
+
+.bblue{
+    background-color: #4476BF;
+}
+.bred{
+    background-color: #A93F3F;
+}
+.bpink{
+    background-color: #D1188F;
+}
+.byellow{
+    background-color: #608f0a;
+}
+
+#big{
+   font-size: 40px;
+   margin-bottom: 35px;
+}
+
+#big2{
+    font-size: 27px;
+}
